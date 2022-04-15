@@ -1,0 +1,8 @@
+ALTER TABLE Users
+DROP CONSTRAINT PK_Users_IdUsername 
+
+ALTER TABLE Users
+ADD CONSTRAINT PK_Users_Id PRIMARY KEY (Id)
+
+ALTER TABLE Users
+ADD CONSTRAINT L_Users_Username CHECK (LEN(Username) >= 3)
