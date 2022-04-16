@@ -1,0 +1,1 @@
+-- Get familiar with the databases in the folder "Resources"
