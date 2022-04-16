@@ -21,7 +21,7 @@ CREATE TABLE Employees (
 	LastName VARCHAR(20) NOT NULL,
 	JobTitle VARCHAR(20),
 	DepartmentId INT FOREIGN KEY REFERENCES Departments(Id),
-	HireDate Date,
-	Salary INT NOT NULL,
+	HireDate DATE,
+	Salary DECIMAL(9,2) NOT NULL,
 	AddressId INT FOREIGN KEY REFERENCES Addresses(Id)
 )
