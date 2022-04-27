@@ -1,2 +1,2 @@
 # MS SQL
- Homework, practice and exam problems for the MS SQL course at SoftUni (May 2022)
+ Homework, practice and exam problem solutions for the MS SQL course at SoftUni (May 2022)
